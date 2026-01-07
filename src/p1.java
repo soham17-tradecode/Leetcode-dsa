@@ -1,18 +1,21 @@
+import java.util.Arrays;
+
 public class p1 {
-    static  boolean twoSum (int [] arr ,int target)
+    static  int []  twoSum (int [] arr ,int target)
     {
         int n = arr.length;
+        int [] r = new int[arr.length];
         for (int i=0 ;i<n;i++)
         {
             for (int j=i+1 ; j<n ;j++)
             {
                 if (arr[i] + arr[j]== target)
                 {
-                    return true;
+                   r = new int[] {arr[i],arr[j]}  ;
                 }
             }
         }
-        return  false;
+        return  r;
     }
 
 
@@ -20,8 +23,8 @@ public class p1 {
         int [] arr = {0,-1,2,-3,1};
         int target = -2;
 
-        boolean i = twoSum(arr , target) ? true :false;
-        System.out.println(i);
+
+        System.out.println(Arrays.toString(twoSum(arr, target)));
 
     }
 }
