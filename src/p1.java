@@ -41,7 +41,7 @@ public class p1 {
         int target = -2;
 
         int arr1[] ={2,7,11,15};
-        int tar = 9;
+        int tar = 18;
         System.out.println(Arrays.toString(twoSum1(arr1,tar)));
 
 
