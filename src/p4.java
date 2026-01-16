@@ -22,7 +22,7 @@ public class p4 {
 
 
     public static void main(String[] args) {
-        int arr[] = {-4, -1, 0, 3, 10};
+        int[] arr = {-4, -1, 0, 3, 10};
 
 
         System.out.println(Arrays.toString(squareSorted(arr)));
