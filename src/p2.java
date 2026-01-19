@@ -34,7 +34,7 @@ public class p2 {
 
 
     public static void main(String[] args) {
-        int[] ar ={1,1,1,1,0};
+        int[] ar ={1,0,1,0,0};
         segregation(ar);
 
     }
