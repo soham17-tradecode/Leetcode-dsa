@@ -35,8 +35,8 @@ public class longestSubStringwithKDistinct {
 
 
     public static void main(String[] args) {
-        String arr = "aabbc";
-        int k = 2;
+        String arr = "aabacbebebe";
+        int k = 3;
         System.out.println(LongestSubString(arr, k));
 
     }
