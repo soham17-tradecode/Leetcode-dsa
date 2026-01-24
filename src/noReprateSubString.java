@@ -15,6 +15,8 @@ public class noReprateSubString {
 //            lastIndex.put(c,lastIndex.getOrDefault(c,0)+1);
             if (lastIndex.containsKey(c)) {
                 low = Math.max(low, lastIndex.get(c) + 1);
+//                System.out.println("map"+lastIndex.get(c));
+                System.out.println("low"+low);
 
             }
             lastIndex.put(c, high);
@@ -26,7 +28,7 @@ public class noReprateSubString {
 
 
     public static void main(String[] args) {
-        String a = "";
+        String a = "abcabcbb";
         System.out.println(noDuplicate(a));
 
     }
