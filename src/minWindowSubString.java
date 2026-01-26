@@ -27,10 +27,11 @@ public class minWindowSubString {
 
             while (req == 0) {
                 int len = right - left;
+
                 if (len < res) {
                     res = len;
                     start = left;
-                }
+                }  System.out.println("res"+res);
                 char l = s.charAt(left);
                 needed[l]++;
                 if (needed[l] > 0) {
