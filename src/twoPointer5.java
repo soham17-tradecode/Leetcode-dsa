@@ -33,6 +33,7 @@ public class twoPointer5 {
 
     public static void main(String[] args) {
         String s = "babad";
+        System.out.println(s.charAt(0)==s.charAt(0));
 //        System.out.println(s.substring(1,2));
         System.out.println(isPalindromeSubString(s));
 
